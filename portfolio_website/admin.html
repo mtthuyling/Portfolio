@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Mai Linh Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-body">
+  <header class="admin-topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">ML</span>
+      <span>mai linh<span class="brand-dot">.</span>
+    </span>
+  </a>
+    <div class="admin-toolbar">
+      <span class="admin-status">
+        <i></i> Portfolio đang hoạt động</span>
+        <a class="button button-small button-outline" href="index.html" target="_blank">Xem website ↗</a><div class="admin-user"><span class="admin-avatar">ML</span><span><b>Mai Linh</b><small>Administrator</small></span></div><a class="logout-link" href="login.html">Thoát</a></div>
+  </header>
+  <div class="admin-layout">
+    <aside class="admin-sidebar"><p class="sidebar-label">WORKSPACE</p><a class="sidebar-link selected" href="#overview"><span>▦</span> Tổng quan</a><a class="sidebar-link" href="#manage-projects"><span>◇</span> Dự án <em>03</em></a><a class="sidebar-link" href="#manage-profile"><span>◎</span> Hồ sơ cá nhân</a><a class="sidebar-link" href="#manage-skills"><span>⌘</span> Kỹ năng</a><a class="sidebar-link" href="#manage-contact"><span>✉</span> Thông tin liên hệ</a><div class="sidebar-bottom"><div class="help-icon">?</div><b>Cần cập nhật?</b><p>Chỉnh sửa nội dung trong file HTML tương ứng.</p><a href="index.html">Mở trang portfolio ↗</a></div></aside>
+    <main class="admin-main" id="overview">
+      <div class="dashboard-heading"><div><p class="eyebrow">FRIDAY, OCTOBER 16, 2026</p><h1>Tổng quan <span>portfolio.</span></h1><p>Chào Linh! Đây là tổng quan nội dung hồ sơ năng lực của bạn.</p></div><a class="button button-primary" href="#manage-projects">Quản lý dự án <span>↗</span></a></div>
+      <div class="stats-grid"><article class="stat-card"><div class="stat-top"><span>Tổng dự án</span><span class="stat-icon">◇</span></div><strong>03</strong><p><span class="stat-positive">●</span> Dự án đang hiển thị</p></article><article class="stat-card"><div class="stat-top"><span>Kỹ năng</span><span class="stat-icon">⌘</span></div><strong>04</strong><p>Các kỹ năng nổi bật</p></article><article class="stat-card"><div class="stat-top"><span>Thông tin hồ sơ</span><span class="stat-icon">◎</span></div><strong>85<span class="percent">%</span></strong><div class="progress-track"><span></span></div><p>Hoàn thiện nội dung mẫu</p></article><article class="stat-card stat-highlight"><div class="stat-top"><span>Trạng thái website</span><span class="stat-icon">↗</span></div><strong>Live</strong><p><span class="stat-positive">●</span> Có thể xem giao diện</p></article></div>
+
+      <section class="admin-panel" id="manage-projects"><div class="panel-heading"><div><p class="eyebrow">PORTFOLIO CONTENT</p><h2>Danh sách dự án</h2></div><span class="demo-chip">DỮ LIỆU MẪU</span></div><div class="panel-toolbar"><div class="search-field"><span>⌕</span><input type="search" placeholder="Tìm dự án..." aria-label="Tìm dự án"></div><div class="toolbar-actions"><select aria-label="Lọc theo trạng thái"><option>Tất cả trạng thái</option><option>Đang thực hiện</option><option>Hoàn thành</option></select><button class="button button-primary button-small" type="button">＋ Thêm dự án</button></div></div>
+        <div class="table-wrap"><table><thead><tr><th>TÊN DỰ ÁN</th><th>PHÂN LOẠI</th><th>CÔNG NGHỆ</th><th>TRẠNG THÁI</th><th>THAO TÁC</th></tr></thead><tbody>
+          <tr><td><div class="table-project"><span class="table-thumb thumb-mint">D</span><span><b>DineFlow</b><small>Gọi món qua mã QR</small></span></div></td><td>Web App</td><td><span class="tech-tag">HTML/CSS</span></td><td><span class="status-pill status-progress">Đang phát triển</span></td><td><button class="table-action" type="button" aria-label="Sửa DineFlow">✎</button><button class="table-action" type="button" aria-label="Tùy chọn DineFlow">···</button></td></tr>
+          <tr><td><div class="table-project"><span class="table-thumb thumb-blue">P</span><span><b>Personal Portfolio</b><small>Website hồ sơ năng lực</small></span></div></td><td>Front-end</td><td><span class="tech-tag">HTML5</span> <span class="tech-tag">CSS3</span></td><td><span class="status-pill status-done">Hoàn thành</span></td><td><button class="table-action" type="button" aria-label="Sửa Portfolio">✎</button><button class="table-action" type="button" aria-label="Tùy chọn Portfolio">···</button></td></tr>
+          <tr><td><div class="table-project"><span class="table-thumb thumb-lilac">L</span><span><b>Learning Journal</b><small>Nhật ký học tập</small></span></div></td><td>Coursework</td><td><span class="tech-tag">Documentation</span></td><td><span class="status-pill status-done">Hoàn thành</span></td><td><button class="table-action" type="button" aria-label="Sửa Learning Journal">✎</button><button class="table-action" type="button" aria-label="Tùy chọn Learning Journal">···</button></td></tr>
+        </tbody></table></div>
+        <div class="table-footer"><span>Đang hiển thị 3 trên 3 dự án</span><span>‹ <b>1</b> ›</span></div>
+      </section>
+      <div class="admin-lower-grid">
+        <section class="admin-panel" id="manage-profile"><div class="panel-heading"><div><p class="eyebrow">PROFILE</p><h2>Hồ sơ cá nhân</h2></div><a class="subtle-link" href="index.html">Xem trang ↗</a></div><div class="profile-preview"><div class="admin-avatar large">ML</div><div><h3>Mai Linh</h3><p>Sinh viên Công nghệ thông tin</p><span class="profile-email">hello@example.com</span></div></div><div class="profile-summary"><div><span>Giới thiệu</span><b>Đã có nội dung</b></div><div><span>Ảnh đại diện</span><b>Minh họa bằng CSS</b></div><div><span>Kỹ năng</span><b>04 mục</b></div></div></section>
+        <section class="admin-panel" id="manage-skills"><div class="panel-heading"><div><p class="eyebrow">SKILLS</p><h2>Kỹ năng nổi bật</h2></div><a class="subtle-link" href="index.html#skills">Xem trang ↗</a></div><div class="skill-admin-row"><span class="skill-admin-icon">⌘</span><span><b>HTML5</b><small>Cấu trúc trang web</small></span><span class="skill-level">Cơ bản</span></div><div class="skill-admin-row"><span class="skill-admin-icon">◈</span><span><b>CSS3</b><small>Responsive layout</small></span><span class="skill-level">Cơ bản</span></div><div class="skill-admin-row"><span class="skill-admin-icon">〈〉</span><span><b>C / C++</b><small>Thuật toán</small></span><span class="skill-level">Đang học</span></div><div class="skill-admin-row"><span class="skill-admin-icon">▦</span><span><b>UI Design</b><small>Bố cục & trải nghiệm</small></span><span class="skill-level">Đang học</span></div></section>
+      </div>
+      <section class="admin-panel contact-admin" id="manage-contact"><div class="panel-heading"><div><p class="eyebrow">CONTACT</p><h2>Thông tin liên hệ</h2></div></div><p>Email hiển thị trên website: <b>hello@example.com</b> · Để đổi thông tin, cập nhật liên kết mailto trong <code>index.html</code>.</p></section>
+      <p class="admin-disclaimer">Lưu ý: Đây là dashboard giao diện tĩnh được xây dựng bằng HTML5 và CSS3 thuần. Các nút thêm/sửa/lọc chỉ minh họa giao diện; hệ thống chưa có xử lý dữ liệu, lưu thay đổi hoặc xác thực đăng nhập.</p>
+    </main>
+  </div>
+</body>
+</html>
